@@ -33,6 +33,7 @@ Available on [MELPA](https://melpa.org/#/unicode-troll-stopper).
 ```emacs-lisp
 (package-initialize)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+(package-refresh-contents)
 (package-install 'unicode-troll-stopper)
 ```
 
